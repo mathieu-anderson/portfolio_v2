@@ -1,5 +1,5 @@
 <template>
   <header>
-    <a href="#contact">Contact ↓</a>
+    <a href="#contact" class="arrow">↓</a>
   </header>
 </template>

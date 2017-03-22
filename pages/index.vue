@@ -85,10 +85,31 @@ export default {
 </script>
 
 <style scoped>
-.title
+
+.part1, .part2, .part3
 {
-  margin-top: 50px;
+  padding: 1em;
+  background-color: white;
 }
+
+.part1
+{
+margin-top: -1em;
+margin-bottom: 1em;
+}
+
+.part2
+{
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+.part3
+{
+margin-top: 1em;
+margin-bottom: -1em;
+}
+
 .info
 {
   font-weight: 300;
@@ -96,6 +117,7 @@ export default {
   margin: 0;
   margin-top: 10px;
 }
+
 .button
 {
   margin-top: 50px;

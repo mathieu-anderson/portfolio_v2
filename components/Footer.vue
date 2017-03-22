@@ -1,5 +1,5 @@
 <template>
   <footer>
-    <a href="#start">↑</a>
+    <a href="#start" class="arrow">↑</a>
   </footer>
 </template>
