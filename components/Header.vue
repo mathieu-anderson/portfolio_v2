@@ -1,5 +1,5 @@
 <template>
   <header>
-    This is a header.
+    <a href="#contact">Contact ↓</a>
   </header>
 </template>

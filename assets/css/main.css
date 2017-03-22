@@ -8,12 +8,19 @@ html, body
   margin: 0;
 }
 
-footer, header
+footer
 {
   padding: 20px;
   text-align: center;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
+}
+
+header
+{
+  font-size: 1em;
+  width: 1vw;
+  position: fixed;
 }
 
 a, a:hover, a:focus, a:visited
