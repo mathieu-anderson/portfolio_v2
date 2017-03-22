@@ -2,17 +2,14 @@
   <div>
     <MyHeader />
     <nuxt/>
-    <MyFooter />
   </div>
 </template>
 
 <script>
-import MyFooter from '~components/Footer.vue'
 import MyHeader from '~components/Header.vue'
 
 export default {
   components: {
-    MyFooter,
     MyHeader
   }
 }
@@ -21,7 +18,7 @@ export default {
 <style>
 .container
 {
-  margin: 0;
+  padding-top: 5em;
   width: 100%;
   text-align: center;
 }

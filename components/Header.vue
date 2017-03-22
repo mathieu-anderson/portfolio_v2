@@ -1,5 +1,5 @@
 <template>
   <header>
-    <a href="#contact" class="arrow">↓</a>
+    Mathieu Anderson | Skills | Resume | Contact | Github
   </header>
 </template>
