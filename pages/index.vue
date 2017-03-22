@@ -89,7 +89,7 @@ export default {
 .part1, .part2, .part3
 {
   padding: 1em;
-  background-color: white;
+  background-color: #EDF2F4;
 }
 
 .part1
@@ -110,12 +110,17 @@ margin-top: 1em;
 margin-bottom: -1em;
 }
 
+.title
+{
+  color: #2B2D42;
+  font-weight: 600;
+  margin-bottom: -0.5em;
+}
+
 .info
 {
   font-weight: 300;
-  color: #9aabb1;
-  margin: 0;
-  margin-top: 10px;
+  color: #D90429;
 }
 
 .button
