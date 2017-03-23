@@ -1,16 +1,20 @@
 <template>
   <div>
-    <MyHeader />
+    <Header/>
+    <a name="start"></a>
     <nuxt/>
+    <Footer/>
   </div>
 </template>
 
 <script>
-import MyHeader from '~components/Header.vue'
+import Header from '~components/Header.vue'
+import Footer from '~components/Footer.vue'
 
 export default {
   components: {
-    MyHeader
+    Header,
+    Footer
   }
 }
 </script>
@@ -18,7 +22,7 @@ export default {
 <style>
 .container
 {
-  padding-top: 5em;
+  padding-top: 4em;
   width: 100%;
   text-align: center;
 }

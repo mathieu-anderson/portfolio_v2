@@ -44,17 +44,3 @@ a:hover
 {
   font-size: 2em;
 }
-
-.logo {
-  width: 243px;
-  height: 218px;
-}
-
-.page-enter-active, .page-leave-active
-{
-  transition: opacity .5s
-}
-.page-enter, .page-leave-active
-{
-  opacity: 0
-}

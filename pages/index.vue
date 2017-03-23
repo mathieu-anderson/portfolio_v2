@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <a name="start"></a>
     <section class="part1">
       <h1 class="title">
         Mathieu Anderson
