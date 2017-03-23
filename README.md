@@ -1,6 +1,6 @@
 # portfolio_v2
 
-> Second approahc for a portfolio site using Nuxt.js
+> Second approach for a portfolio site using Nuxt.js
 
 ## Build Setup
 
