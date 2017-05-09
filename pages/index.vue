@@ -1,4 +1,5 @@
 <template>
+<vue-loop :full="true" :horizontal="false">
   <div class="container">
     <section class="part1">
       <h1 class="title">
@@ -67,17 +68,17 @@
       </p>
     </section>
   </div>
+</vue-loop>
 </template>
 <script>
+import VueLoop from '../plugins/vue-loop'
 export default {
-  data ({ req }) {
-    return {
-      name: req ? 'server' : 'client'
-    }
+  mounted () {
+    VueLoop.init()
   },
   head () {
     return {
-      title: `About Page (${this.name}-side)`
+      title: `Mathieu Anderson`
     }
   }
 }
