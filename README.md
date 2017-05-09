@@ -1,6 +1,12 @@
 # portfolio_v2
 
-> Second approach for a portfolio site using Nuxt.js
+Second approach for a portfolio site using Nuxt.js : a portfolio feels like the exact use-case for a static website.
+
+## todo
+
+- [ ] Implement anchor tags in the page + [vue-scrollto](https://www.npmjs.com/package/vue-scrollto)
+- [ ] Implement vue-loop [I'm an inline-style link](https://github.com/lookstudios/vue-loop)
+- [ ] Actually start putting in content
 
 ## Build Setup
 
