@@ -29,7 +29,7 @@ module.exports = {
     /*
     ** Run ESLINT on save
     */
-    vendor: ['vue-loop', 'vue-scrollto'],
+    vendor: ['vue-scrollto'],
 
     extend (config, ctx) {
       if (ctx.isClient) {
@@ -44,7 +44,6 @@ module.exports = {
   },
   plugins: [
     // ssr: false to only include it on client-side
-    { src: '~plugins/vue-loop.js', ssr: false },
     { src: '~plugins/vue-scrollto.js', ssr: false }
   ]
 }
