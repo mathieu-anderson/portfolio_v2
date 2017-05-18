@@ -1,5 +1,8 @@
 <template>
+<vue-loop :full="true" :horizontal="false">
   <div class="container">
+    <div class="me">
+    </div>
     <section class="part1">
       <h1 class="title">
         Mathieu Anderson
@@ -11,6 +14,8 @@
         He really should not speak of himself in the third person, though.
       </p>
     </section>
+    <div class="skills">
+    </div>
     <section class="part2">
       <h1 class="title">
         My journey
@@ -43,7 +48,9 @@
         Here is a fancy table of my skills with a timeline of when and how I learned them, as well as related projects.
       </p>
     </section>
-    <section class="part2">
+    <div class="dream">
+    </div>
+    <section class="part3">
       <h1 class="title">
         I am looking for
       </h1>
@@ -54,7 +61,9 @@
         I will detail my idal job here. Damn this is hard
       </p>
     </section>
-    <section class="part3">
+    <div class="contact">
+    </div>
+    <section class="part4">
       <h1 class="title">
         Find me
       </h1>
@@ -67,53 +76,62 @@
       </p>
     </section>
   </div>
+</vue-loop>
 </template>
 <script>
+// import VueLoop from 'vue-loop'
+
 export default {
-  data ({ req }) {
-    return {
-      name: req ? 'server' : 'client'
-    }
+  components: {
+    // VueLoop
   },
   head () {
     return {
-      title: `About Page (${this.name}-side)`
+      title: `Mathieu Anderson`
     }
   }
 }
 </script>
 
 <style scoped>
+.me, .skills, .dream, .contact {
+}
 
-.part1, .part2, .part3
+.part1, .part2, .part3, .part4
 {
-  padding: 1em;
+  padding: 1rem;
   background-color: #EDF2F4;
 }
 
 .part1
 {
-margin-top: -1em;
-margin-bottom: 1em;
+margin-top: -1rem;
+margin-bottom: 1rem;
 }
 
 .part2
 {
-margin-top: 1em;
-margin-bottom: 1em;
+margin-top: 1rem;
+margin-bottom: 1rem;
 }
 
 .part3
 {
-margin-top: 1em;
-margin-bottom: -1em;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+
+.part4
+{
+margin-top: 1rem;
+margin-bottom: -1rem;
 }
 
 .title
 {
   color: #2B2D42;
   font-weight: 600;
-  margin-bottom: -0.5em;
+  margin-bottom: -0.5rem;
 }
 
 .info
