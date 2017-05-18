@@ -25,7 +25,7 @@ export default {
 {
   font-weight: normal;
   color: #2B2D42;
-  padding-bottom: 0.3em;
+  padding-bottom: 0.3rem;
 }
 a:hover, a:active
 {

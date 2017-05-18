@@ -80,12 +80,10 @@
 </template>
 <script>
 // import VueLoop from 'vue-loop'
-import VueScrollTo from 'vue-scrollto'
 
 export default {
   components: {
     // VueLoop
-    VueScrollTo
   },
   head () {
     return {
@@ -101,39 +99,39 @@ export default {
 
 .part1, .part2, .part3, .part4
 {
-  padding: 1em;
+  padding: 1rem;
   background-color: #EDF2F4;
 }
 
 .part1
 {
-margin-top: -1em;
-margin-bottom: 1em;
+margin-top: -1rem;
+margin-bottom: 1rem;
 }
 
 .part2
 {
-margin-top: 1em;
-margin-bottom: 1em;
+margin-top: 1rem;
+margin-bottom: 1rem;
 }
 
 .part3
 {
-margin-top: 1em;
-margin-bottom: 1em;
+margin-top: 1rem;
+margin-bottom: 1rem;
 }
 
 .part4
 {
-margin-top: 1em;
-margin-bottom: -1em;
+margin-top: 1rem;
+margin-bottom: -1rem;
 }
 
 .title
 {
   color: #2B2D42;
   font-weight: 600;
-  margin-bottom: -0.5em;
+  margin-bottom: -0.5rem;
 }
 
 .info
