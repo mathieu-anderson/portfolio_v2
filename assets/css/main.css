@@ -1,6 +1,6 @@
 html, body
 {
-  background-color: #D90429;
+  background-color: #990000;
   color: #2B2D42;
   letter-spacing: 0.5px;
   font-family: "Source Sans Pro", Arial, sans-serif;
@@ -19,7 +19,7 @@ footer
   margin-left: -1rem;
   padding: 1rem;
   color: #2B2D42;
-  background-color: #D90429;
+  background-color: #990000;
   text-align: left;
 }
 
@@ -32,13 +32,13 @@ header
   margin-left: -1rem;
   padding: 1rem;
   color: #2B2D42;
-  background-color: #D90429;
+  background-color: #990000;
   text-align: left;
 }
 
 a, a:focus, a:visited
 {
-  color: #D90429;
+  color: #990000;
   font-weight: bold;
   text-decoration: none;
 }

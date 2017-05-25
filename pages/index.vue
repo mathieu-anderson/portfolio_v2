@@ -1,5 +1,4 @@
 <template>
-<vue-loop :full="true" :horizontal="false">
   <div class="container">
     <div class="me">
     </div>
@@ -76,15 +75,10 @@
       </p>
     </section>
   </div>
-</vue-loop>
 </template>
 <script>
-// import VueLoop from 'vue-loop'
 
 export default {
-  components: {
-    // VueLoop
-  },
   head () {
     return {
       title: `Mathieu Anderson`
@@ -109,19 +103,13 @@ margin-top: -1rem;
 margin-bottom: 1rem;
 }
 
-.part2
+.part2, .part3, .part4
 {
 margin-top: 1rem;
 margin-bottom: 1rem;
 }
 
-.part3
-{
-margin-top: 1rem;
-margin-bottom: 1rem;
-}
-
-.part4
+.part5
 {
 margin-top: 1rem;
 margin-bottom: -1rem;
@@ -137,7 +125,7 @@ margin-bottom: -1rem;
 .info
 {
   font-weight: 300;
-  color: #D90429;
+  color: #990000;
 }
 
 .button

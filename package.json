@@ -6,7 +6,6 @@
   "private": true,
   "dependencies": {
     "nuxt": "latest",
-    "vue-loop": "^0.2.6",
     "vue-scrollto": "^2.6.8"
   },
   "scripts": {

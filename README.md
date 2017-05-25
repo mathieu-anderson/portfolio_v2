@@ -4,8 +4,7 @@ Second approach for a portfolio site using Nuxt.js : a portfolio feels like the 
 
 ## todo
 
-- [ ] Implement anchor tags in the page + [vue-scrollto](https://www.npmjs.com/package/vue-scrollto)
-- [ ] Implement [vue-loop²](https://github.com/lookstudios/vue-loop)
+- [x] Implement anchor tags in the page + [vue-scrollto](https://www.npmjs.com/package/vue-scrollto)
 - [ ] Actually start putting in content
 
 ## Build Setup

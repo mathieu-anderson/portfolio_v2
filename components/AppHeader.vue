@@ -5,7 +5,7 @@
     <a href="#"  v-scroll-to="{ el: '.dream', container: 'body', offset: -55 }">Dream</a> |
     <a href="#" v-scroll-to="{ el: '.contact', container: 'body', offset: -55 }">Contact</a> |
     <a href="https://github.com/mathieu-anderson">Github</a> |
-    <a href="www.linkedin.com/in/mathieu-anderson">LinkedIn</a> | <a href="#">Email</a>
+    <a href="https://www.linkedin.com/in/mathieuanderson">LinkedIn</a> | <a href="#">Email</a>
   </header>
 </template>
 
