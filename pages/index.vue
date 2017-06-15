@@ -10,7 +10,13 @@
         is a web developer.
       </h2>
       <p>
-        He really should not speak of himself in the third person, though.
+        He really should not speak of himself in the third person, though. Let's stop that.
+      </p>
+      <p>
+        I've fallen in love with JavaScript during my time at <a href="https://www.devacademy.co.nz/">Dev Academy's bootcamp</a>, where I learnt my life needed to be about code, and where I became a better human being.
+      </p>
+      <p>
+        I am now still learning, and looking for a team to be a part of.
       </p>
     </section>
     <div class="skills">
@@ -128,8 +134,4 @@ margin-bottom: -1rem;
   color: #990000;
 }
 
-.button
-{
-  margin-top: 50px;
-}
 </style>

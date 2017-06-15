@@ -5,8 +5,6 @@ html, body
   letter-spacing: 0.5px;
   font-family: "Source Sans Pro", Arial, sans-serif;
   height: 100vh;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 footer
@@ -15,11 +13,11 @@ footer
   width: 100vw;
   position: fixed;
   bottom: 0px;
-  margin-top: -1rem;
-  margin-left: -1rem;
-  padding: 1rem;
+  margin-top: -0.5em;
+  margin-left: -0.5em;
+  padding: 1em;
   color: #2B2D42;
-  background-color: #990000;
+  background-color: #ffffff;
   text-align: left;
 }
 
@@ -28,11 +26,11 @@ header
   font-size: 1rem;
   width: 100vw;
   position: fixed;
-  margin-top: -1rem;
-  margin-left: -1rem;
-  padding: 1rem;
+  margin-top: -0.5em;
+  margin-left: -0.5em;
+  padding: 1em;
   color: #2B2D42;
-  background-color: #990000;
+  background-color: #ffffff;
   text-align: left;
 }
 

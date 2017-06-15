@@ -21,6 +21,21 @@ export default {
       top: true,
       bottom: false
     }
+  },
+  methods: {
+    isMobile: function () {
+      if (window.screen.width > 450) {
+        console.log('triggered')
+        this.top = true
+        this.bottom = false
+      } else {
+        this.top = false
+        this.bottom = true
+      }
+    }
+  },
+  beforeMount () {
+    this.isMobile()
   }
 }
 </script>
